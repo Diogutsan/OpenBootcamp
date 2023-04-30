@@ -1,0 +1,30 @@
+#ejercicio de tema 3
+#introduccion a la programacion
+#OpenBootcamp
+
+public class Main {
+	public static void main( String [ ] args) {
+		int a=6;
+		int b=2;
+		int c=8;
+		int suma = a+b+c;
+		System.out.print(suma);
+	}  
+	
+	public static void main (String [ ] args){
+	
+	coche miCoche =
+	}
+}
+
+public class coche{
+        
+        public int puertas = 0;
+        
+        public void SumarPuerta(){
+            this.puertas++;
+        }
+        
+    }
+
+public static void main(String [ ] args)
