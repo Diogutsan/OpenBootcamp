@@ -13,7 +13,9 @@ public class Main {
 	
 	public static void main (String [ ] args){
 	
-	coche miCoche =
+	coche miCoche =new coche();
+	miCoche.Sumarpuerta();
+	System.out.println(miCoche.puertas)
 	}
 }
 
@@ -25,6 +27,4 @@ public class coche{
             this.puertas++;
         }
         
-    }
-
-public static void main(String [ ] args)
+}
