@@ -1,6 +1,6 @@
-#ejercicio de tema 3
-#introduccion a la programacion
-#OpenBootcamp
+//ejercicio de tema 3
+//introduccion a la programacion
+//OpenBootcamp
 
 public class Main {
 	public static void main( String [ ] args) {
