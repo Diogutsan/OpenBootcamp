@@ -24,5 +24,14 @@ public class Main {
             numeroWhile = numeroWhile + 1;
             
         }
+    public static void funcionDo() { 
+  
+         int numeroDo = 0: 
+         do{
+										System.out.println(numeroso);
+         numeroso = número Do + 1;
+  
+         }while (numeroWhile < 3); 
+  
     }
 }	
