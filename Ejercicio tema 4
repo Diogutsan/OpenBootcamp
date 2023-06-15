@@ -1,1 +1,15 @@
-#Ejercicios tema 4
+//Ejercicios tema 4
+//introduccion a la programacion
+//OpenBootcamp
+
+public class Main {
+
+	public static void main( String [ ] args) {
+		numero = int(imput('ingrese un numero: '))
+        if numero <0;
+            System.out.print(numero, 'Este numero es negativo');
+        else;
+            System.out.print(numero, 'Este numero es positivo');
+
+	}  
+}	
