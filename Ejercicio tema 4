@@ -14,7 +14,7 @@ public class Main {
             System.out.println(numero, 'Este numero es positivo');
     
 	}  
-    public static void main(String [ ] args) {
+    public static void funcionWhile() {
         
         int numeroWhile = 0:
 
