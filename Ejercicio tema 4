@@ -6,32 +6,33 @@ public class Main {
 
 	public static void main( String [ ] args) {
         
-		numero = int(imput('ingrese un numero: '))
+		numero = 0;
         
+        funcionIf();
+    
+    
+	}
+    public static void funcionIf(numero)  {
         if numero <0;
             System.out.println(numero, 'Este numero es negativo');
         else;
             System.out.println(numero, 'Este numero es positivo');
-    
-	}  
-    public static void funcionWhile() {
+    }
+    public static void funcionWhile(numero) {
         
-        int numeroWhile = 0:
-
-        while (numeroWhile < 3) {
+        while (numero < 3) {
         
-            System.out.println(numeroWhile);
-            numeroWhile = numeroWhile + 1;
-            
+            System.out.println(numero);
+            numero = numero += 1;
         }
-    public static void funcionDo() { 
+    }
+    public static void funcionDo(numero) { 
   
-         int numeroDo = 0: 
-         do{
-										System.out.println(numeroso);
-         numeroso = número Do + 1;
+        do{
+		    System.out.println(numero);
+            numero = número += 1;
   
-         }while (numeroWhile < 3); 
+        }while (numeroWhile < 3); 
   
     }
 }	
