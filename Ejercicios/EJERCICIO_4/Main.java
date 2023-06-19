@@ -2,31 +2,32 @@
 //Ejercicios tema 4
 //introduccion a la programacion
 //OpenBootcamp
-import java.util.scanner;
+
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        System.out.print("Ingrese un nuemro Negativo o Positivo: ");
+        System.out.println("Ingrese un nuemro Negativo o Positivo: ");
         Scanner scanner = new Scanner(System.in);
-        int numero = scanner.nextLine();
+        int numero = scanner.nextInt();
         scanner.close();
 
-        funcionIf();
-        funcionWhile();
-        funcionDo();
+        funcionIf(numero);
+        funcionWhile(numero);
+        funcionDo(numero);
 
     }
 
     public static void funcionIf(int numero) {
         if (numero < 0) {
 
-            System.out.println(numero, "Este numero es negativo");
+            System.out.println(numero + "Este numero es negativo");
 
         } else {
 
-            System.out.println(numero, "Este numero es positivo");
+            System.out.println(numero + "Este numero es positivo");
 
         }
 
